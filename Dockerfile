@@ -15,4 +15,4 @@ COPY . /app
 EXPOSE 80
 
 # Run motivational_quotes.py when the container launches
-CMD ["python", "./app.py"]
+CMD ["python3", "./app.py"]
